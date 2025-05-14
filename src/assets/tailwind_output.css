@@ -967,6 +967,7 @@ html {
 }
 .project-article[data-status="off"] {
   transform: translateX(-150%);
+  display: none;
 }
 .project-article[data-status="off-left"] {
   transform: translateX(150%);
