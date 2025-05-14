@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "a short personal portfolio website",
+  "keywords": [
+    "portfolio"
+  ],
+  "license": "ISC",
+  "author": "Alexander Yuanata",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start-dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.6",
+    "express": "^5.1.0",
+    "path": "^0.12.7",
+    "tailwindcss": "^4.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
