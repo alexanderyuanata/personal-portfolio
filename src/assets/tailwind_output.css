@@ -969,20 +969,20 @@ html {
   transform: translateX(-150%);
 }
 .project-article[data-status="off-left"] {
-  transform: translateX(-150%);
+  transform: translateX(150%);
 }
 .project-article[data-status="off-right"] {
-  transform: translateX(150%);
+  transform: translateX(-150%);
 }
 .project-article[data-status="after"] {
   transform: translateX(-150%);
 }
 .project-article[data-status="becoming-on-left"] {
-  transform: translateX(150%);
+  transform: translateX(-150%);
   transition: none;
 }
 .project-article[data-status="becoming-on-right"] {
-  transform: translateX(-150%);
+  transform: translateX(150%);
   transition: none;
 }
 @property --tw-space-y-reverse {
